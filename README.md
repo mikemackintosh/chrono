@@ -1,6 +1,6 @@
 # chrono
 <p align="center">
-  <img width="120px" src="https://github.com/mikemackintosh/chrono/raw/main/.github/example.png">
+  <img src="https://github.com/mikemackintosh/chrono/raw/main/.github/example.png">
 </p>
 
 ### Installation
