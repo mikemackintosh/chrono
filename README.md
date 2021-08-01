@@ -1,4 +1,7 @@
 # chrono
+<p align="center">
+  <img width="120px" src="https://github.com/mikemackintosh/chrono/raw/master/.github/example.png">
+</p>
 
 ### Installation
 ```sh
