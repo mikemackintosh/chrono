@@ -8,6 +8,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/mikemackintosh/chrono/internal/version"
 )
 
 var (
@@ -25,8 +27,9 @@ func main() {
 
 	flag.Parse()
 
+	// Show the version info only if it's requested
 	if flagVersion {
-		fmt.Printf("1.0")
+		fmt.Printf("%s - %s\n", version.Version, version.CommitHash)
 		os.Exit(0)
 	}
 
