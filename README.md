@@ -5,7 +5,9 @@
 
 ### Installation
 ```sh
-go install github.com/mikemackintosh/chrono`
+wget https://github.com/mikemackintosh/chrono/releases/download/v1.0.6/chrono-linux-amd64
+sudo cp chrono-linux-amd64 /usr/local/bin/chrono
+sudo chmod +x /usr/local/bin/chrono
 ```
 
 Then, with `zsh` you can use it by adding the following to your `.zshrc`:
